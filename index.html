@@ -64,12 +64,31 @@
         <h2>Entre em contato</h2>
         <p>Envie uma mensagem para saber como doar ou participar do projeto.</p>
 
-        <form id="formContato">
-            <input type="text" id="nome" placeholder="Seu nome" required>
-            <input type="email" id="email" placeholder="Seu e-mail" required>
-            <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
-            <button type="submit" class="btn">Enviar</button>
-        </form>
+       <form action="https://formspree.io/f/mojgwzzr" method="POST">
+
+            <input
+                type="text"
+                name="Nome"
+                placeholder="Seu nome"
+                required>
+        
+            <input
+                type="email"
+                name="Email"
+                placeholder="Seu e-mail"
+                required>
+        
+            <textarea
+                name="Mensagem"
+                placeholder="Sua mensagem"
+                required></textarea>
+        
+            <button type="submit" class="btn">
+                Enviar
+            </button>
+    
+       </form>
+        
     </section>
 
     <footer>
